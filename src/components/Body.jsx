@@ -59,7 +59,7 @@ function Body() {
   }
 
   return (
-    <div className="w-[500px] h-[500px] bg-white rounded-2xl flex flex-col shadow-md">
+    <div className="w-[400px] h-[500px] bg-white rounded-2xl flex flex-col shadow-md">
       <div className="w-auto h-[90px] rounded-t-2xl border-b-2 flex flex-row justify-between">
         <div className='flex justify-center items-center ml-5'><button onClick={handleClear} className='w-14 h-14 text-xl'>C</button></div>
         <h2 className='text-[40px] text-right p-4'>{currentValue}</h2>
