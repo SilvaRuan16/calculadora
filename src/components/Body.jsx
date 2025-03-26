@@ -21,7 +21,7 @@ function Body() {
     if (operator && currentValue) { calculate() }
     setOperator(op)
     setPreviousValue(currentValue)
-    setCurrentValue("")
+    setCurrentValue("0")
   }
 
   const calculate = () => {
