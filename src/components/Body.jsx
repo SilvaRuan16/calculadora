@@ -47,7 +47,7 @@ function Body() {
     }
 
     setCurrentValue(result.toString())
-    setPreviousValue("")
+    setPreviousValue("0")
     setOperator("")
     setIsResultDisplayed(true)
   }
